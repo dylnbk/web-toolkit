@@ -40,12 +40,20 @@ body {
   color: white;
 }
 
+main {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 h1 {
     font-family: roboto-bold;
     font-size: 5rem;
     text-align: center;
-    padding-top: 30px;
-    padding-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 0px;
 }
 
 h2 {
@@ -58,8 +66,8 @@ h2 {
   font-family: roboto-bold;
   font-size: 1.5rem;
   text-align: center;
-  padding-top: 15px;
-  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .footer a {
@@ -88,8 +96,8 @@ h2 {
   font-family: roboto-bold;
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 14em;
-  width: 14em;
+  height: 13.5em;
+  width: 13.5em;
   font-size: 1.5em;
   color: white;
   border-radius: 1em;
