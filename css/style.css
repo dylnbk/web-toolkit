@@ -40,14 +40,6 @@ body {
   color: white;
 }
 
-main {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
 h1 {
     font-family: roboto-bold;
     font-size: 5rem;
@@ -185,11 +177,16 @@ h2 {
 
 /* MEDIA QUERIES */
 @media screen and (max-width: 768px) {
+
   .cards-wrapper {
     grid-template-columns: 1fr;
   }
   .info {
     justify-content: center;
+  }
+
+  .footer {
+    padding-bottom: 30px;
   }
 }
 
