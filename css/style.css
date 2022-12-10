@@ -44,8 +44,8 @@ h1 {
     font-family: roboto-bold;
     font-size: 5rem;
     text-align: center;
-    padding-top: 75px;
-    padding-bottom: 25px;
+    padding-top: 30px;
+    padding-bottom: 10px;
 }
 
 h2 {
@@ -58,8 +58,8 @@ h2 {
   font-family: roboto-bold;
   font-size: 1.5rem;
   text-align: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 15px;
+  padding-bottom: 30px;
 }
 
 .footer a {
@@ -77,9 +77,9 @@ h2 {
   display: grid;
   justify-content: center;
   align-items: center;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 4rem;
-  padding: 4rem;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2rem;
+  padding: 2rem;
   margin: 0 auto;
   width: max-content;
 }
@@ -88,8 +88,8 @@ h2 {
   font-family: roboto-bold;
   --bg-filter-opacity: 0.5;
   background-image: linear-gradient(rgba(0,0,0,var(--bg-filter-opacity)),rgba(0,0,0,var(--bg-filter-opacity))), var(--bg-img);
-  height: 15em;
-  width: 15em;
+  height: 14em;
+  width: 14em;
   font-size: 1.5em;
   color: white;
   border-radius: 1em;
@@ -176,7 +176,7 @@ h2 {
 }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 1285px) {
+@media screen and (max-width: 768px) {
   .cards-wrapper {
     grid-template-columns: 1fr;
   }
